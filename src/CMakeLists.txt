@@ -1,4 +1,4 @@
 
-add_executable(${PROJECT_NAME} "${CMAKE_CURRENT_SOURCE_DIR}/main.c")
+add_executable(${PROJECT_NAME} "${CMAKE_CURRENT_SOURCE_DIR}/main.cpp")
 
 install(TARGETS ${PROJECT_NAME} DESTINATION ${INSTALL_DIR})
